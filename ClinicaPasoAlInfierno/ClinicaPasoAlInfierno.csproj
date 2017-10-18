@@ -153,7 +153,16 @@
     <Compile Include="Citas.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\CitasController.cs" />
+    <Compile Include="Controllers\EnfermedadesController.cs" />
+    <Compile Include="Controllers\FarmaceutasController.cs" />
+    <Compile Include="Controllers\FarmaciasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MedicamentosConsultasController.cs" />
+    <Compile Include="Controllers\MedicamentosController.cs" />
+    <Compile Include="Controllers\MedicosController.cs" />
+    <Compile Include="Controllers\OrdenesController.cs" />
+    <Compile Include="Controllers\PacientesController.cs" />
     <Compile Include="Enfermedades.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -252,6 +261,51 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Citas\Create.cshtml" />
+    <Content Include="Views\Citas\Delete.cshtml" />
+    <Content Include="Views\Citas\Details.cshtml" />
+    <Content Include="Views\Citas\Edit.cshtml" />
+    <Content Include="Views\Citas\Index.cshtml" />
+    <Content Include="Views\Enfermedades\Create.cshtml" />
+    <Content Include="Views\Enfermedades\Delete.cshtml" />
+    <Content Include="Views\Enfermedades\Details.cshtml" />
+    <Content Include="Views\Enfermedades\Edit.cshtml" />
+    <Content Include="Views\Enfermedades\Index.cshtml" />
+    <Content Include="Views\Farmaceutas\Create.cshtml" />
+    <Content Include="Views\Farmaceutas\Delete.cshtml" />
+    <Content Include="Views\Farmaceutas\Details.cshtml" />
+    <Content Include="Views\Farmaceutas\Edit.cshtml" />
+    <Content Include="Views\Farmaceutas\Index.cshtml" />
+    <Content Include="Views\Farmacias\Create.cshtml" />
+    <Content Include="Views\Farmacias\Delete.cshtml" />
+    <Content Include="Views\Farmacias\Details.cshtml" />
+    <Content Include="Views\Farmacias\Edit.cshtml" />
+    <Content Include="Views\Farmacias\Index.cshtml" />
+    <Content Include="Views\Medicamentos\Create.cshtml" />
+    <Content Include="Views\Medicamentos\Delete.cshtml" />
+    <Content Include="Views\Medicamentos\Details.cshtml" />
+    <Content Include="Views\Medicamentos\Edit.cshtml" />
+    <Content Include="Views\Medicamentos\Index.cshtml" />
+    <Content Include="Views\MedicamentosConsultas\Create.cshtml" />
+    <Content Include="Views\MedicamentosConsultas\Delete.cshtml" />
+    <Content Include="Views\MedicamentosConsultas\Details.cshtml" />
+    <Content Include="Views\MedicamentosConsultas\Edit.cshtml" />
+    <Content Include="Views\MedicamentosConsultas\Index.cshtml" />
+    <Content Include="Views\Medicos\Create.cshtml" />
+    <Content Include="Views\Medicos\Delete.cshtml" />
+    <Content Include="Views\Medicos\Details.cshtml" />
+    <Content Include="Views\Medicos\Edit.cshtml" />
+    <Content Include="Views\Medicos\Index.cshtml" />
+    <Content Include="Views\Ordenes\Create.cshtml" />
+    <Content Include="Views\Ordenes\Delete.cshtml" />
+    <Content Include="Views\Ordenes\Details.cshtml" />
+    <Content Include="Views\Ordenes\Edit.cshtml" />
+    <Content Include="Views\Ordenes\Index.cshtml" />
+    <Content Include="Views\Pacientes\Create.cshtml" />
+    <Content Include="Views\Pacientes\Delete.cshtml" />
+    <Content Include="Views\Pacientes\Details.cshtml" />
+    <Content Include="Views\Pacientes\Edit.cshtml" />
+    <Content Include="Views\Pacientes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
